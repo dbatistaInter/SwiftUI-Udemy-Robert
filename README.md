@@ -20,3 +20,8 @@ Proyectos Generados en el Curso de Udemy con Robert Petras.
     - Aplicación:
     - Conceptos: Double tap gesture, Gesture, Magnification
     - [Preview App]()   
+
+ - [Pinch]()
+    - Aplicación:
+    - Conceptos: List, Group, GroupBox
+    - [Preview App]()   
