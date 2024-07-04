@@ -22,7 +22,7 @@ struct InsetMapView: View {
                             .imageScale(.large)
                         
                         Text("Locations")
-                            .foregroundStyle(.accent)
+                            .foregroundStyle(Color.accentColor)
                             .fontWeight(.bold)
                     } //: HSTACK
                     .padding(.vertical, 10)

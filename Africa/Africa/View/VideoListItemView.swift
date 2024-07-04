@@ -27,7 +27,7 @@ struct VideoListItemView: View {
                 Text(video.name)
                     .font(.title2)
                     .fontWeight(.heavy)
-                    .foregroundStyle(.accent)
+                    .foregroundStyle(Color.accentColor)
                 
                 Text(video.headline)
                     .font(.footnote)

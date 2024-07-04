@@ -13,10 +13,10 @@ struct MapAnnotationView: View {
     var body: some View {
         ZStack {
             Circle()
-                .fill(.accent)
+                .fill(Color.accentColor)
                 .frame(width: 54, height: 54, alignment: .center)
             Circle()
-                .stroke(.accent, lineWidth: 2)
+                .stroke(Color.accentColor, lineWidth: 2)
                 .frame(width: 52, height: 52, alignment: .center)
                 .scaleEffect(1 + CGFloat(animation))
                 .opacity(1 - animation)

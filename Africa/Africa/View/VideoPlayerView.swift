@@ -24,7 +24,7 @@ struct VideoPlayerView: View {
                          , alignment: .topLeading
                 )
         }//: VSTACK
-        .tint(.accent)
+        .tint(Color.accentColor)
         .navigationTitle(videoTitle)
         .navigationBarTitleDisplayMode(.inline)
     }

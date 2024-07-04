@@ -22,7 +22,7 @@ struct AnimalListItemView: View {
                 Text(animal.name)
                     .font(.title2)
                     .fontWeight(.heavy)
-                    .foregroundStyle(.accent)
+                    .foregroundStyle(Color.accentColor)
                 Text(animal.headline)
                     .font(.footnote)
                     .multilineTextAlignment(.leading)

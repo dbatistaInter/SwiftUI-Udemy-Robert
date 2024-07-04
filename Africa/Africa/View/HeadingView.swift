@@ -14,7 +14,7 @@ struct HeadingView: View {
         
         HStack {
             Image(systemName: headingImage)
-                .foregroundStyle(.accent)
+                .foregroundStyle(Color.accentColor)
                 .imageScale(.large)
             Text(headingText)
                 .font(.title3)

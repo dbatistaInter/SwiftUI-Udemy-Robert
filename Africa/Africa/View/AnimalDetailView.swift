@@ -32,7 +32,7 @@ struct AnimalDetailView: View {
                 Text(animal.headline)
                     .font(.headline)
                     .multilineTextAlignment(.leading)
-                    .foregroundStyle(.accent)
+                    .foregroundStyle(Color.accentColor)
                     .padding(.horizontal)
                 // 4. GALLERY
                 Group {
