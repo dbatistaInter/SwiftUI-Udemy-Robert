@@ -14,6 +14,14 @@ struct BrandItemView: View {
             .resizable()
             .scaledToFit()
             .padding()
+            .background(Color.white)
+            .clipShape(RoundedRectangle(cornerRadius: 12))
+            .background(
+                RoundedRectangle(cornerRadius: 12)
+                    .stroke(Color.gray, lineWidth: 1)
+            )
+        
+        
     }
 }
 

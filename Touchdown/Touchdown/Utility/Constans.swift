@@ -12,6 +12,8 @@ let players_: [Player] = Bundle.main.decode("player.json")
 let categories_: [Category] = Bundle.main.decode("category.json")
 let products_: [Product] = Bundle.main.decode("product.json")
 let brands_: [Brand] = Bundle.main.decode("brand.json")
+let sampleProduct_ = products_[0]
+
 // COLOR
 let colorBackground: Color = Color("ColorBackground")
 let colorGray: Color = Color(UIColor.systemGray4)
@@ -22,6 +24,7 @@ var gridLayout: [GridItem] {
     Array(repeating: GridItem(.flexible(), spacing: rowSpacing), count: 2)
 }
 // UX
+let feedback = UIImpactFeedbackGenerator(style: .medium)
 // API
 // IMAGE
 // FONT

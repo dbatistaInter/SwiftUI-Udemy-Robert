@@ -11,7 +11,9 @@ struct NavigationBarView: View {
     @State private var isAnimating: Bool = false
     var body: some View {
         HStack {
-            Button(action: {}, label: {
+            Button(action: {
+                feedback.impactOccurred()
+            }, label: {
                 Image(systemName: "magnifyingglass")
                     .font(.title)
                     .foregroundStyle(.black)
@@ -26,7 +28,9 @@ struct NavigationBarView: View {
                     }
                 })
             Spacer()
-            Button(action: {}, label: {
+            Button(action: {
+                feedback.impactOccurred()
+            }, label: {
                 ZStack {
                     Image(systemName: "cart")
                         .font(.title)
